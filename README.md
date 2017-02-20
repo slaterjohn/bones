@@ -22,3 +22,12 @@ In development mode Gulp will watch for changes on SCSS, JS, Images and HTML.
 A production build will compress images, uglify CSS and minify JS.
 
 	npm run build-prod
+
+
+## To Do
+A few things left on the list to sort out
+
+- Add placeholder favicons (plus sketch template)
+- Add options to config file to pre-populate meta
+- Create a git clone cleanup script (to remove git folder)
+- Add more mixins
