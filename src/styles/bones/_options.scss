@@ -1,0 +1,91 @@
+
+    /*
+     * _options
+     *
+     */
+
+
+
+    // Prefix
+    $prefix: 'bones-';
+    $u-prefix: 'u-';
+
+
+
+
+    // Sizes
+    $width: auto;
+    $min-width: 320px;
+    $max-width: none;
+
+
+
+
+    // Padding
+    $padding-unit: 20px;
+    $padding-unit--tiny: $padding-unit / 4;
+    $padding-unit--small: $padding-unit / 2;
+    $padding-unit--large: $padding-unit * 2;
+    $padding-unit--xlarge: $padding-unit * 4;
+
+
+
+    // Margin
+    $margin-unit: 20px;
+    $margin-unit--tiny: $margin-unit / 4;
+    $margin-unit--small: $margin-unit / 2;
+    $margin-unit--large: $margin-unit * 2;
+    $margin-unit--xlarge: $margin-unit * 4;
+
+
+
+
+
+    // Fonts
+    $font-stack: 'Work Sans', Helvetica, Arial, sans-serif;
+    $font-colour: #111;
+
+
+
+
+    // Font sizes
+    $font-size: 16px;
+    $font-size--tiny: 10px;
+    $font-size--small: 14px;
+    $font-size--large: 24px;
+    $font-size--xlarge: 32px;
+
+
+
+    // Font Weights
+    $font-weight--thin: 100;
+    $font-weight--extra-light: 200;
+    $font-weight--light: 300;
+    $font-weight--regular: 400;
+    $font-weight--medium: 500;
+    $font-weight--semi-bold: 600;
+    $font-weight--bold: 700;
+    $font-weight--extra-bold: 800;
+    $font-weight--black: 900;
+
+
+
+
+    // Font Awesome
+    $fa-font-path: '../other/fonts/font-awesome/';
+    $fa-css-prefix: 'fa';
+
+
+
+
+    // Mq
+    $mq-breakpoints: (
+        mobile:  320px,
+        tablet:  740px,
+        desktop: 980px,
+        wide:    1300px,
+
+        // Tweakpoints
+        desktopAd: 810px,
+        mobileLandscape: 480px
+    );

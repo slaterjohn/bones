@@ -1,0 +1,51 @@
+
+    .#{$prefix}inner-border {
+
+    }
+
+
+
+        .#{$prefix}inner-border__container {
+            position: relative;
+
+            img {
+                display: block;
+            }
+        }
+
+
+
+        .#{$prefix}inner-border__border {
+            border: solid 1px rgba(0,0,0,.1);
+            border-radius: inherit;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+
+        .#{$prefix}inner-border--on-a {
+
+            a {
+                position: relative;
+                display: block;
+
+                &:before {
+                    content: "";
+                    border: solid 1px rgba(0,0,0,.1);
+                    border-radius: inherit;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                }
+            }
+
+            a[href='#']{
+                display: none;
+            }
+
+        }

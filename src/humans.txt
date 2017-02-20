@@ -1,0 +1,15 @@
+
+/* TEAM */
+	UX Designer: John Slater
+	Twitter: @slaterjohn
+	From: England, United Kingdom
+	Website: www.slaterjohn.com
+
+/* THANKS */
+
+    Bones: John Slater
+	Twitter: @slaterjohn
+
+/* SITE */
+
+    CSS3, HTML5, jQuery, Modernizr, Normalize.css, FontAwesome

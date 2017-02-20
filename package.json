@@ -1,0 +1,32 @@
+{
+  "name": "bones",
+  "version": "1.0.0",
+  "description": "A skeleton boiler plate for web projects",
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-include": "^2.3.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-replace-task": "^0.11.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "normalize.css": "^5.0.0",
+    "run-sequence": "^1.2.2",
+    "sass-module-importer": "^1.4.0",
+    "sass-mq": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+	  "build-dev": "gulp build",
+	  "build-prod": "gulp build --type=production"
+  }
+}

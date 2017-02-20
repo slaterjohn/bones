@@ -1,0 +1,30 @@
+
+
+
+
+
+    .#{$prefix}vertical-aligner {
+        height: 100%;
+    }
+
+
+
+
+
+    .#{$prefix}vertical-aligner:before {
+        content: "";
+        width: 1px;
+        height: 100%;
+        margin-left: -1px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+
+
+
+
+        .#{$prefix}vertical-aligner__content {
+            display: inline-block;
+            vertical-align: middle;
+        }

@@ -1,0 +1,72 @@
+
+    $column-width: 100% / 12;
+    $column-padding: 20px;
+    $column-end-padding: $column-padding / 2;
+
+
+
+
+    .#{$prefix}grid {
+        @extend .ext-cf;
+    }
+
+
+
+
+        .#{$prefix}grid--inline-block {
+
+            // Columns
+            & > .#{$prefix}grid__column,
+            & > .#{$prefix}grid__row > .#{$prefix}grid__column {
+                float: none;
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+
+
+
+
+        .#{$prefix}grid__row {
+            @extend .ext-cf;
+            padding-top: $column-end-padding;
+            padding-bottom: $column-end-padding;
+
+            //&:first-of-type {padding-top: $column-padding;}
+            //&:last-of-type {padding-bottom: $column-padding;}
+        }
+
+
+
+
+        .#{$prefix}grid__column {
+            @extend .ext-cf;
+            float: left;
+            width: $column-width;
+            padding-left: $column-end-padding;
+            padding-right: $column-end-padding;
+        }
+
+
+
+
+            // Loop over columns for spans
+            $i: 1;
+            @while $i <= 12 {
+                .#{$prefix}grid__column--span-#{$i} {
+                    width: $column-width * $i;
+                }
+                $i: $i + 1;
+            }
+
+
+
+
+            // Loop over columns for offset
+            $i: 1;
+            @while $i < 12 {
+                .#{$prefix}grid__column--offset-#{$i} {
+                    margin-left: $column-width * $i;
+                }
+                $i: $i + 1;
+            }

@@ -1,0 +1,68 @@
+{
+    "paths": {
+
+        "input": {
+            "html": "./src/**/*.html",
+            "styles": [
+                "./src/styles/**/*.scss",
+                "!./src/styles/**/_*.scss"
+            ],
+            "scripts": [
+                "./src/scripts/**/*.js",
+                "!./src/scripts/**/_*.js"
+            ],
+            "images": [
+                "./src/images/**/*"
+            ],
+            "other": [
+                "./src/other/**/*"
+            ]
+        },
+
+        "output": {
+            "html": "./dist/",
+            "styles": "./dist/styles/",
+            "scripts": "./dist/scripts/",
+            "maps": "./dist/maps/",
+            "images": "./dist/images/",
+            "other": "./dist/other/"
+        },
+
+        "watch": {
+            "html": "./src/**/*.html",
+            "styles": "./src/styles/**/*.scss",
+            "scripts": "./src/scripts/**/*.js",
+            "images": "./src/images/**/*",
+            "other": "./src/other/**/*"
+        },
+
+        "clean": {
+            "dist": "dist/",
+            "html": "*.html",
+            "styles": "styles/",
+            "scripts": "scripts/",
+            "images": "images/",
+            "other": "other/"
+        }
+    },
+
+    "replacements": {
+
+        "global": [
+            {"match": "versionNumber", "replacement": "1.0.0"}
+        ],
+
+        "html": [
+
+        ],
+
+        "styles": [
+
+        ],
+
+        "scripts": [
+
+        ]
+
+    }
+}

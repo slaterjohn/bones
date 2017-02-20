@@ -1,0 +1,36 @@
+
+
+
+
+
+    h1,
+    .#{$prefix}heading--h1 {
+        margin-top: 0;
+        margin-bottom: .5em;
+        font-size: $font-size--xlarge;
+        font-weight: $font-weight--light;
+    }
+
+
+
+
+
+    h2,
+    .#{$prefix}heading--h2 {
+        margin-top: 0;
+        margin-bottom: .5em;
+        font-size: $font-size--large;
+        font-weight: $font-weight--light;
+    }
+
+
+
+
+
+    h3,
+    .#{$prefix}heading--h3 {
+        margin-top: 0;
+        margin-bottom: .5em;
+        font-size: 20px;
+        font-weight: $font-weight--light;
+    }

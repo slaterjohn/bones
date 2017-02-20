@@ -1,0 +1,13 @@
+
+
+
+
+
+    .#{$prefix}body {
+        background-color: white;
+        min-width: $min-width;
+        font-family: $font-stack;
+        font-weight: $font-weight--regular;
+        color: $font-colour;
+        position: relative;
+    }
