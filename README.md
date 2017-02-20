@@ -31,3 +31,4 @@ A few things left on the list to sort out
 - Add options to config file to pre-populate meta
 - Create a git clone cleanup script (to remove git folder)
 - Add more mixins
+- Add [BrowserSync](https://browsersync.io/docs/gulp) into gulp (behind toggle)
